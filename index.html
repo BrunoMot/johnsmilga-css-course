@@ -68,12 +68,27 @@
       The heading above is 1em in size, which depends on the font size
       configuration on your browser, or the base value of the parent
     </p>
-    <div class="relative-div">
+    <div class="relative-div box">
       <h4 class="relative-heading">i have relative units</h4>
       <p>
         The heading above is also 1em in size, but is inside a div with
         font-size 13px instead of browser's default 16px
       </p>
+    </div>
+    <h3>Rem units</h3>
+    <p>REM units depend on the rule, not the parent</p>
+    <div class="relative-div box">
+      <h4 class="rem-heading">i have relative units</h4>
+      <p>
+        Even though the heading above is inside a div with font-size 13px, it
+        has 1 rem, so it still uses browser settings or html rule as the base
+        size
+      </p>
+    </div>
+    <div>
+      <h3>Viewport units</h3>
+      <div class="hero"></div>
+      <div class="about"></div>
     </div>
   </body>
 </html>

@@ -26,8 +26,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
-  color: rgb(1, 80, 80);
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -48,7 +48,7 @@ a:visited {
   color: darkred;
 }
 
-/* Classes */
+/*** Classes ***/
 .box {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
@@ -65,10 +65,12 @@ a:visited {
   font-size: 25px;
 }
 
+/* Absolute units */
 .absolute-size-box {
   width: 400px;
 }
 
+/* Percent units */
 .relative-size-parent {
   height: 100px;
 }
@@ -77,6 +79,7 @@ a:visited {
   height: 50%;
 }
 
+/* EM units */
 .absolute-heading {
   font-size: 16px;
 }
@@ -85,6 +88,15 @@ a:visited {
 }
 .relative-div {
   font-size: 13px;
+}
+
+/* REM units */
+.rem-heading {
+  font-size: 1rem;
+}
+
+/* Viewport units */
+.hero {
 }
 
 /* IDs */
