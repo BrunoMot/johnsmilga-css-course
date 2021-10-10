@@ -50,6 +50,7 @@ a:visited {
 
 /*** Classes ***/
 .box {
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
   text-align: center;
@@ -97,6 +98,7 @@ a:visited {
 
 /* Viewport units */
 .hero {
+  width: 50vw;
 }
 
 /* IDs */
