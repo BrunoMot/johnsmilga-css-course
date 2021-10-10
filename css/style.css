@@ -1,0 +1,95 @@
+body {
+  background-color: floralwhite;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: 'Courier New';
+  color: black;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.85rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: cadetblue;
+  background-color: antiquewhite;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: rgb(1, 80, 80);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(94, 88, 77);
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(94, 88, 77);
+  text-transform: none;
+}
+
+a:link {
+  color: burlywood;
+}
+a:visited {
+  color: darkred;
+}
+
+/* Classes */
+.box {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+  word-spacing: 0.5rem;
+  border: 3px inset dimgray;
+}
+
+.text-box {
+  background-color: darkgrey;
+}
+
+.absolute-size {
+  font-size: 25px;
+}
+
+.absolute-size-box {
+  width: 400px;
+}
+
+.relative-size-parent {
+  height: 100px;
+}
+.relative-size-child {
+  width: 70%;
+  height: 50%;
+}
+
+.absolute-heading {
+  font-size: 16px;
+}
+.relative-heading {
+  font-size: 1em;
+}
+.relative-div {
+  font-size: 13px;
+}
+
+/* IDs */
+#override {
+  font-style: italic;
+  word-spacing: 1.5rem;
+  color: dimgray;
+}

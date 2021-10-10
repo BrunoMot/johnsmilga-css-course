@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johnsmilga CSS Tutorial</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- hello wordl -->
+    <h1>Hello world</h1>
+    <h2>second heading</h2>
+    <a href="./about.html">about page</a>
+    <!-- inheritance -->
+    <h1>inheritance</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolorem
+      ad quos ipsum rerum dicta impedit animi aspernatur blanditiis natus.
+    </p>
+    <div class="box text-box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, corporis
+        explicabo repudiandae sed saepe laboriosam porro amet et incidunt animi.
+      </p>
+      <p id="override">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam adipisci
+        possimus alias iure consectetur expedita enim? Voluptate sequi dolore
+        dolores.
+      </p>
+    </div>
+    <h2>i am heading</h2>
+    <h1>colors</h1>
+    <p>Use rgba() for transparent colors</p>
+    <p class="box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum eius
+      molestiae itaque alias, aliquid voluptas explicabo. Harum placeat eum
+      nihil voluptates iste unde error nemo dolorem at exercitationem! Dolorem,
+      doloribus?
+    </p>
+    <!-- units -->
+    <h1>units</h1>
+    <h2>absolute units</h2>
+    <div class="absolute-size">
+      <p>
+        Text with absolute size will line break when the window changes, but
+        will stay the same size
+      </p>
+      <div class="box absolute-size-box">
+        <p>
+          The with of an element with absolute size will not change with the
+          window size either
+        </p>
+      </div>
+    </div>
+    <h2>relative units</h2>
+    <h3>Percent Units</h3>
+    <div class="relative-size-parent box">
+      <div class="relative-size-child box">
+        <p>Percent units depend on the parent</p>
+      </div>
+    </div>
+    <h3>em units</h3>
+    <h4 class="absolute-heading">i have absolute units</h4>
+    <p>The heading above is 16px in size</p>
+    <h4 class="relative-heading">i have relative units</h4>
+    <p>
+      The heading above is 1em in size, which depends on the font size
+      configuration on your browser, or the base value of the parent
+    </p>
+    <div class="relative-div">
+      <h4 class="relative-heading">i have relative units</h4>
+      <p>
+        The heading above is also 1em in size, but is inside a div with
+        font-size 13px instead of browser's default 16px
+      </p>
+    </div>
+  </body>
+</html>
